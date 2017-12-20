@@ -1,6 +1,7 @@
 // @flow weak
 import React, {Component} from 'react';
 import {View, StyleSheet, ListView, Text} from 'react-native';
+import PropTypes from 'prop-types';
 
 const styles = StyleSheet.create({
     contentContainer: {
@@ -14,10 +15,10 @@ const styles = StyleSheet.create({
 
 export default class GridView extends Component {
     static propTypes = {
-        numberOfItemsPerRow: React.PropTypes.number.isRequired,
-        renderRow: React.PropTypes.func.isRequired,
-        listViewRef: React.PropTypes.func,
-        contentContainerStyle: React.PropTypes.any
+        numberOfItemsPerRow: PropTypes.number.isRequired,
+        renderRow: PropTypes.func.isRequired,
+        listViewRef: PropTypes.func,
+        contentContainerStyle: PropTypes.any
     };
 
     state: {
