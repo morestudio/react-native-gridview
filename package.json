@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavlelekic/react-native-gridview.git"
+    "url": "git+https://github.com/GolfPlayed/react-native-gridview.git"
   },
   "keywords": [
     "react-native",
@@ -17,9 +17,12 @@
     "gridview"
   ],
   "author": "Pavle Lekic <lekic.pavle@yahoo.com>",
+  "contributors": [
+      "Byron Rode <byron@webwiser.io>"
+  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pavlelekic/react-native-gridview/issues"
+    "url": "https://github.com/GolfPlayed/react-native-gridview/issues"
   },
-  "homepage": "https://github.com/pavlelekic/react-native-gridview#readme"
+  "homepage": "https://github.com/GolfPlayed/react-native-gridview#readme"
 }
