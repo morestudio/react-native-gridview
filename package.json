@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GolfPlayed/react-native-gridview.git"
+    "url": "git+https://github.com/morestudio/react-native-gridview.git"
   },
   "keywords": [
     "react-native",
@@ -18,11 +18,14 @@
   ],
   "author": "Pavle Lekic <lekic.pavle@yahoo.com>",
   "contributors": [
-      "Byron Rode <byron@webwiser.io>"
+    "Nattapong Saengphrom <tum@morestudio.co.th>"
   ],
+  "peerDependencies": {
+    "deprecated-react-native-listview": "^0.0.6"
+  },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GolfPlayed/react-native-gridview/issues"
+    "url": "https://github.com/morestudio/react-native-gridview/issues"
   },
-  "homepage": "https://github.com/GolfPlayed/react-native-gridview#readme"
+  "homepage": "https://github.com/morestudio/react-native-gridview#readme"
 }

@@ -1,6 +1,7 @@
 // @flow weak
 import React, {Component} from 'react';
-import {View, StyleSheet, ListView, Text} from 'react-native';
+import {View, StyleSheet, Text} from 'react-native';
+import ListView from 'deprecated-react-native-listview';
 import PropTypes from 'prop-types';
 
 const styles = StyleSheet.create({
